@@ -31,7 +31,7 @@ print("5",os.path.dirname(os.path.realpath(__file__)))
 
 print("6",os.listdir(os.getcwd()))
 
-print("7",os.listdir(os.path.join(os.getcwd(),'Utils')))
+print("77777",os.listdir(os.path.join(os.getcwd(),'Utils')))
 
 from Utils import ImageEncoder
 
