@@ -31,7 +31,7 @@ print("5",os.path.dirname(os.path.realpath(__file__)))
 
 print("6",os.listdir(os.getcwd()))
 
-import ImageEncoder
+from webservice.Utils import ImageEncoder
 
 # Specify canvas parameters in application
 stroke_width = st.sidebar.slider("Stroke width: ", 1, 50, 35)
