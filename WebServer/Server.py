@@ -10,6 +10,27 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 import PIL.Image as Image
 import requests
+
+
+import os
+print(os.path.dirname(os.path.abspath(__file__)))
+#현재 파일 이름
+print("1",__file__)
+
+#현재 파일 실제 경로
+print("2",os.path.realpath(__file__))
+
+#현재 파일 절대 경로
+print("3",os.path.abspath(__file__))
+
+#현재 폴더 경로; 작업 폴더 기준
+print("4",os.getcwd())
+
+#현재 파일의 폴더 경로; 작업 파일 기준
+print("5",os.path.dirname(os.path.realpath(__file__)))
+
+print("6",os.listdir(os.getcwd()))
+
 import ImageEncoder
 
 # Specify canvas parameters in application
